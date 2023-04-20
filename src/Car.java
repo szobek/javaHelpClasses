@@ -1,6 +1,7 @@
 import interfaces.IFoldi;
+import interfaces.IHangJelzes;
 
-public final class  Car extends Jarmu implements IFoldi{
+public final class  Car extends Jarmu implements IFoldi, IHangJelzes {
     private String color;
     private String brand;
     private int window;
@@ -38,5 +39,10 @@ public final class  Car extends Jarmu implements IFoldi{
     @Override
     public void kiir() {
         System.out.println("Implementált interfész");
+    }
+
+    @Override
+    public void jelzes() {
+        System.out.println("nínóóóóóóóóóóóóóóóóóó");
     }
 }

@@ -1,10 +1,11 @@
 import alkatresz.Ablak;
 import alkatresz.Kerek;
 import alkatresz.Ules;
+import interfaces.IHangJelzes;
 import tulajdonsag.Marka;
 import tulajdonsag.Szin;
 
-public class Auto {
+public class Auto implements IHangJelzes {
     private Kerek kerekekSzama;
     private Ules ulesekSzama;
     private Ablak ablakokSzama;
@@ -43,4 +44,8 @@ public class Auto {
     }
 
 
+    @Override
+    public void jelzes() {
+        System.out.println("tütűűűűűűűűűűűűűűű");
+    }
 }
