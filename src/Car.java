@@ -1,4 +1,6 @@
-public final class  Car {
+import interfaces.IFoldi;
+
+public final class  Car extends Jarmu implements IFoldi{
     private String color;
     private String brand;
     private int window;
@@ -31,5 +33,10 @@ public final class  Car {
 
     public int getSeat() {
         return seat;
+    }
+
+    @Override
+    public void kiir() {
+        System.out.println("Implementált interfész");
     }
 }

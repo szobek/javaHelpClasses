@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c69fc62b-e1cb-473c-a874-bb865394425b" name="Changes" comment="change property">
-      <change beforePath="$PROJECT_DIR$/adrian.iml" beforeDir="false" afterPath="$PROJECT_DIR$/help.iml" afterDir="false" />
+    <list default="true" id="c69fc62b-e1cb-473c-a874-bb865394425b" name="Changes" comment="change filename">
+      <change afterPath="$PROJECT_DIR$/src/Jarmu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfaces/IFoldi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Car.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +19,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -80,7 +84,14 @@
       <option name="project" value="LOCAL" />
       <updated>1681995780751</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="change filename">
+      <created>1681996089080</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1681996089080</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -97,6 +108,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="bemutató" />
     <MESSAGE value="change property" />
-    <option name="LAST_COMMIT_MESSAGE" value="change property" />
+    <MESSAGE value="change filename" />
+    <option name="LAST_COMMIT_MESSAGE" value="change filename" />
   </component>
 </project>

@@ -8,5 +8,9 @@ public class Main {
         System.out.println();
         Car kocsi2 = new Car("#654859","Mazda",3,3,3);
         System.out.println(kocsi2.getColor()+" | "+kocsi2.getBrand()+" | "+kocsi2.getWindow()+" | "+kocsi2.getDoor()+" | "+kocsi2.getSeat());
+        System.out.println();
+        System.out.println();
+        kocsi2.kiir();
+
     }
 }
